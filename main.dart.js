@@ -13092,7 +13092,7 @@ anQ:function(a){var s=0,r=P.D(t.z),q,p
 var $async$anQ=P.z(function(b,c){if(b===1)return P.A(c,r)
 while(true)switch(s){case 0:p=t.X
 s=3
-return P.y(G.hJ(C.c.I("http://104.45.155.38:5000/purchase_orders/",a),P.aa(["accept","*/*","Content-Type","application/json"],p,p)),$async$anQ)
+return P.y(G.hJ(C.c.I(u.F,a),P.aa(["accept","*/*","Content-Type","application/json"],p,p)),$async$anQ)
 case 3:q=c
 s=1
 break
