@@ -72173,14 +72173,15 @@ return new O.OP(H.b(["Add Component","Components","Inbound Stock","Plan Kit","Ma
 O.OP.prototype={
 a8:function(){this.am()
 this.T()},
-T:function(){var s=0,r=P.E(t.z),q=this,p,o,n
+T:function(){var s=0,r=P.E(t.z),q=this,p,o,n,m
 var $async$T=P.z(function(a,b){if(a===1)return P.B(b,r)
-while(true)switch(s){case 0:n=J
+while(true)switch(s){case 0:m=J
 s=2
 return P.x(X.anS(),$async$T)
-case 2:p=n.aC(b),o=q.y
+case 2:p=m.aC(b),o=q.y
 case 3:if(!p.q()){s=4
-break}o.push(p.gw(p))
+break}n=p.gw(p)
+if(n.c==null)o.push(n)
 s=3
 break
 case 4:q.A(new O.aeK(q))
@@ -73088,7 +73089,7 @@ return new T.Mh(new A.qD(),new A.Ew(),D.f4(s),D.f4(s),D.f4(s),D.f4(s),D.f4(s),D.
 T.Mh.prototype={
 a8:function(){var s=this
 s.am()
-s.A(new T.a9h(s))
+if(s.a.d)s.A(new T.a9h(s))
 if(s.a.d)s.A(new T.a9i(s))
 else s.A(new T.a9j(s))},
 G:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d="Add Enterprise",c=t.w
