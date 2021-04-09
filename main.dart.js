@@ -72295,21 +72295,24 @@ case 2:p=b
 if(p!=null)q.u(new O.a9j(q,p))
 return P.C(null,r)}})
 return P.D($async$ts,r)},
-f2:function(){var s=0,r=P.E(t.z),q=this,p,o,n,m,l
+f2:function(){var s=0,r=P.E(t.z),q=this,p,o,n,m,l,k
 var $async$f2=P.z(function(a,b){if(a===1)return P.B(b,r)
-while(true)switch(s){case 0:l=P.jA("http://165.232.150.133:5000/component",0,null)
+while(true)switch(s){case 0:l=q.a.c
+k=P.jA(C.c.I("http://165.232.150.133:5000/component/",l==null?"":l.x),0,null)
+P.bb(k)
+l=q.f
+if(l.f==null){l.f="NA"
+l.z=0}p=D.a1q(q.a.c==null?"POST":"PATCH",k)
+l=t.X
+o=P.aa(["Connection","Keep-Alive","Content-Type","Multipart/form-data"],l,l)
+n=q.a.c==null?"create":"update"
+m=P.aa([n,C.x.dg(q.f,null)],l,l)
+p.z.push(K.rk("image",q.y.c,R.ib("multipart","form-data",null),q.y.b))
+l=p.y
+l.O(0,m)
+p.r.O(0,o)
 P.bb(l)
-p=q.f
-if(p.f==null){p.f="NA"
-p.z=0}o=D.a1q(q.a.c==null?"POST":"PATCH",l)
-p=t.X
-n=P.aa(["Connection","Keep-Alive","Content-Type","Multipart/form-data"],p,p)
-m=P.aa(["create",C.x.dg(q.f,null)],p,p)
-o.z.push(K.rk("image",q.y.c,R.ib("multipart","form-data",null),q.y.b))
-o.y.O(0,m)
-o.r.O(0,n)
-P.bb(m)
-o.li(0).aU(0,new O.a9m(q),t.P)
+p.li(0).aU(0,new O.a9m(q),t.P)
 return P.C(null,r)}})
 return P.D($async$f2,r)},
 gal:function(a){return this.z}}
@@ -72381,10 +72384,11 @@ O.a9j.prototype={
 $0:function(){this.a.y=J.jT(this.b.a)},
 $S:1}
 O.a9m.prototype={
-$1:function(a){var s
-P.bb(a)
+$1:function(a){var s,r=a.b
+P.bb(r)
+r=r===201||r===204
 s=this.a
-if(a.b===201)s.cG("Uploaded Successfully")
+if(r)s.cG("Uploaded Successfully")
 else s.cG(u.b)},
 $S:74}
 V.vq.prototype={
