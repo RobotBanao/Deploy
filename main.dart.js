@@ -72120,6 +72120,7 @@ G.ii.prototype={
 c9:function(){var s=new H.bZ(t.r)
 s.l(0,"name",this.a)
 s.l(0,"cost",this.b)
+s.l(0,"qty",0)
 return s},
 gal:function(a){return this.a}}
 G.hS.prototype={
