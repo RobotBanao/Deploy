@@ -14601,7 +14601,7 @@ a=C.q.aB(0,B.cy(U.cw(b.e).c.a.h(0,"charset")).aB(0,b.x))
 a0=H.b([],t.zG)
 c=J.a3(a)
 p=c.h(a,"items")
-o=c.h(a,"shipped")
+o=c.h(a,"current")
 for(n=J.a3(p),m=J.a3(o),l=0,k=0,j=0;j<n.gm(p);++j){i=new F.hs(J.E(J.E(n.h(p,j),"details"),"asin"),J.E(J.E(n.h(p,j),"details"),"name"),P.c1(J.E(n.h(p,j),"quantity"),null),J.E(n.h(p,j),"stock"),J.E(J.E(n.h(p,j),"details"),"master_sku"),J.E(J.E(n.h(p,j),"details"),"id"),J.E(n.h(p,j),"unit_cost"),J.E(J.E(n.h(p,j),"details"),"our_cost"))
 for(h=0;h<m.gm(o);++h){g=i.a
 f=J.E(m.h(o,h),"asin_id")
