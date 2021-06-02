@@ -18208,16 +18208,23 @@ s=1
 break
 case 1:return P.y(q,r)}})
 return P.z($async$az9,r)},
-WI:function(a){var s=0,r=P.A(t.Tf),q,p,o,n,m,l
+WI:function(a){var s=0,r=P.A(t.Tf),q,p,o,n,m,l,k,j,i,h
 var $async$WI=P.w(function(b,c){if(b===1)return P.x(c,r)
-while(true)switch(s){case 0:o=t.X
+while(true)switch(s){case 0:k=t.X
 s=3
-return P.B(G.es("http://165.232.150.133:5000/linking/"+String(!1),P.ab(["Accept","application/json","Connection","Keep-Alive"],o,o)),$async$WI)
-case 3:n=c
-m=C.t.aB(0,B.co(U.cn(n.e).c.a.h(0,"charset")).aB(0,n.x))
-l=H.a([],t.pF)
-for(o=J.a0(m),p=0;p<o.gl(m);++p)l.push(G.aT0(o.h(m,p)))
-q=l
+return P.B(G.es("http://165.232.150.133:5000/linking/"+String(a),P.ab(["Accept","application/json","Connection","Keep-Alive"],k,k)),$async$WI)
+case 3:j=c
+i=C.t.aB(0,B.co(U.cn(j.e).c.a.h(0,"charset")).aB(0,j.x))
+h=H.a([],t.pF)
+for(k=J.a0(i),p=0;p<k.gl(i);++p){o=G.aT0(k.h(i,p))
+if(a){n=o.r
+m=o.b
+l=m[0].d
+m=m[1].d
+m=o.z=Math.max(n*1.2,Math.min(H.G(l),H.G(m))-10)
+n=o.a
+if(m!==n){if(m>n)o.e=!0
+h.push(o)}}else h.push(o)}q=h
 s=1
 break
 case 1:return P.y(q,r)}})
@@ -81665,7 +81672,7 @@ J:function(){var s=0,r=P.A(t.z),q=this,p
 var $async$J=P.w(function(a,b){if(a===1)return P.x(b,r)
 while(true)switch(s){case 0:p=G
 s=2
-return P.B(G.WI(!1),$async$J)
+return P.B(G.WI(!0),$async$J)
 case 2:q.t(new p.asM(q,b))
 return P.y(null,r)}})
 return P.z($async$J,r)},
